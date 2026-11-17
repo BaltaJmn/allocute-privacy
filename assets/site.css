@@ -1,0 +1,13 @@
+:root { --paper: #f6f1e7; --ink: #172133; --faint: #5d6472; --ox: #7a1f2b; --rule: #d9d2c2; }
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--paper); color: var(--ink); font: 18px/1.62 "New York", "Iowan Old Style", Georgia, serif; }
+main { max-width: 660px; margin: 0 auto; padding: 48px 26px 90px; }
+.name { display: flex; align-items: center; gap: 12px; color: var(--ink); text-decoration: none; font-variant: small-caps; letter-spacing: .12em; font-weight: 700; }
+.name img { width: 40px; height: 40px; border: 1px solid var(--ink); }
+h1 { font-size: 36px; line-height: 1.15; margin: 54px 0 14px; }
+h2 { font-size: 13px; font-variant: small-caps; letter-spacing: .14em; color: var(--ox); border-bottom: 1px solid var(--ink); padding-bottom: 5px; margin: 42px 0 12px; }
+p, li { margin: 0 0 13px; }
+.note { color: var(--faint); font-size: 16px; }
+.cell { font: 600 15px/1 ui-monospace, Menlo, monospace; background: var(--ink); color: var(--paper); padding: 3px 7px; }
+a { color: var(--ox); }
+footer { margin-top: 60px; padding-top: 14px; border-top: 1px solid var(--rule); color: var(--faint); font-size: 15px; }
